@@ -1,0 +1,11 @@
+1.0.1: First version of Test
+1.0.2:
+  - Create tables
+  - create_tables.php
+1.0.3:
+  - Seed tables
+  - seed_tables.php
+1.1.0: Max aka Flyingbaba in github branch
+1.1.1:
+ - Search for pivot error then model is extended
+ - create_categories_countries_table.php

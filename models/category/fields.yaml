@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+
+    parent:
+        label: Parent
+        type: relation
+
+    countries:
+        label: Countries (Expecting error here)
+        type: partial
+        path: field_countries

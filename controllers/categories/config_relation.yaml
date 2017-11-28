@@ -1,0 +1,22 @@
+countries:
+    label: Countries (Where bug is expected)
+    view:
+        list: ~/plugins/october/test/models/country/default_columns.yaml
+        toolbarButtons: add|remove
+    manage:
+        showSearch: false
+        showSorting: false
+        recordsPerPage: 40
+        list: ~/plugins/october/test/models/country/default_columns.yaml
+    pivot:
+        form:
+            fields:
+                pivot[is_published]:
+                    label: Is published
+                    span: left
+                    type: switch
+                    default: disabled
+
+                pivot[sort_order]:
+                    label: Sort order
+                    span: left
